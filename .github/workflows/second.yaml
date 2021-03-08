@@ -39,5 +39,5 @@ jobs:
         run: npm install -g surge 
        
       - name: deploying on surge
-        run: surge ./build http://cooperative-thought.surge.sh/  --token "c561c1670ad8dffd5e6e1921bc757971"
+        run: surge ./build mubashiryou.surge.sh  --token {{secrets.MUBASHIR}}
         
