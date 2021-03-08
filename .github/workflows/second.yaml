@@ -39,5 +39,5 @@ jobs:
         run: npm install -g surge 
        
       - name: deploying on surge
-        run: surge ./build mubashiryou.surge.sh  --token {{secrets.MUBASHIR}}
+        run: surge ./build mubashiryou.surge.sh  --token ${{secrets.MUBASHIR}}
         
