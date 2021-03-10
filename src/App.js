@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
      <h1>Mubashir Ejaz smubashir655@gmail.com</h1>
-     <a href="smubashir655@gmail.com" target="_blank">Here is my email</a>
+     <a href="facebook.com/sheikhmubashi" target="_blank">Here is my email</a>
     
     </div>
   );
