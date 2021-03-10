@@ -33,7 +33,7 @@ jobs:
         
     # Build React App with Yarn
     - name: Build React App
-      run: npm build
+      run: npm run build
     
     # Install Surge
     - name: Install Surge
@@ -41,4 +41,4 @@ jobs:
     
     # Deploy Surge
     - name: Deploy React App to Surge
-      run: surge ./build http://kdjbfiwdaslsdna.surge.sh/ --token ${{ secrets.MUBASHIR_NEW }}
+      run: surge ./build shallow-exchange.surge.sh --token ${{ secrets.MUBASHIR_NEW }}
