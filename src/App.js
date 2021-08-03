@@ -12,6 +12,8 @@ const App = () => {
     
     <div className={`box ${morning  ? 'daylight' : ''}`}>
       <h1>Day time = {morning ? 'Morning' : 'Night'}</h1>
+      <h1>Day time = {morning ? 'Morning' : 'Night'}</h1>
+      
       <Dinner counter={count}/>
       <button onClick={()=>{setCount(count + 1)}}>Increament</button>
     <button onClick={()=>{setCount(count - 1)}}>Decreamnet</button>
